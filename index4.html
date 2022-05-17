@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style4.css">
+    <title>formulario</title>
+</head>
+<body>
+    <header>
+        <nav class="nav1">
+            <h1>FORMULARIO</h1>
+            <ul>
+                <li><a href="index2.html" id="link1">Turismo</a></li>
+                <li><a href="index3.html" id="link2">Recomendaciones</a></li>
+                <li><a href="index.html" id="link3">Página principal</a></li>
+            </ul>
+        </nav>
+        <div class="clear"></div>
+    </header>
+    <main>
+        <section class="formulario">
+            <form>
+                <p class="texto">Si estas interesado en más información sobre conocer más lugares del mundo, puedes hacer este formularios y te estaremos contactando.</p>
+                <label for="nombre" class="nombre">Nombre: *</label><br>
+                <input type="text" id="nombre" placeholder="Escriba su nombre" required><br>
+                <label for="apellido" class="apellido">Apellido: </label><br>
+                <input type="text" id="apellido" placeholder="Escriba su apellido"><br>
+                <label for="edad" class="edad">Edad: </label><br>
+                <input type="number" id="edad" placeholder="Escriba su edad"><br>
+                <label for="email" class="email">Correo Electronico: *</label><br>
+                <input type="email" id="email" required><br>
+                <label for="pais" class="pais">¿De que país nos lees?</label><br>
+                <br>
+                    <select name = "nacionalidad" class="nacionalidad">
+                        <option value="Colombia">Colombia</option>
+                        <option value="México">México</option>
+                        <option value="Argentina">Argentina</option>
+                        <option value="Brasil">Brasil</option>
+                        <option value="Chile">Chile</option>
+                        <option value="España">España</option>
+                        <option value="Estados Unidos">Estados Unidos</option>
+                        <option value="Canadá">Canadá</option>
+                        <option value="Australia">Australia</option>
+                        <option value="China">China</option>
+                        <option value="India">India</option>
+                        <option value="Suiza">Suiza</option>
+                        <option value="Francia">Francia</option>
+                    </select><br>
+                    <br>
+                <label for="mensaje" id="mensaje">Dejanos un mensaje para saber tu opinión: </label><br>
+                <textarea rows="10"cols="50" id="cajita"></textarea><br>
+                <br>
+                <input type="submit" value="Enviar" id="btn-enviar">
+            </form>
+        </section>
+    </main>
+</body>
+</html>

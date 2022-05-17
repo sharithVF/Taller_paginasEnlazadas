@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("../image/prueba.jpg");
+}
+
+header {
+    width: 100%;
+    padding: 20px;
+}
+
+main {
+    width: 1222px;
+    background: #f6f0f4;
+    border: 5px solid #A8201A;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 4rem;
+    padding: 10px;
+    
+}
+
+h1 {
+    margin-right: 45rem;
+    font-size: 50px;
+}
+
+.nav1 {
+    margin-top: 12px;
+    float: right;
+    width: 100%;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li a {
+    margin: 15px;
+    padding: 10px;
+    border: 2px solid #143642;
+    border-radius: 8px;
+    background-color: #a8211ae2;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #143642;
+}
+
+nav ul li {
+    display: inline;
+}
+
+.texto {
+    font-size: 29px;
+    margin-top: 30px;
+    margin: 2rem;
+    text-align: center;
+}
+
+.formulario {
+    text-align: center;
+}
+
+#nombre {
+    width: 15rem;
+    height: 30px;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #143642;
+    border-radius: 0.4rem;
+    background-color:#970f0242;
+}
+
+.nombre {
+    font-size: 25px;
+}
+
+#apellido {
+    width: 15rem;
+    height: 30px;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #143642;
+    border-radius: 0.4rem;
+    background-color:#970f0242;
+}
+
+.apellido {
+    font-size: 25px;
+}
+
+#edad {
+    width: 15rem;
+    height: 30px;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #143642;
+    border-radius: 0.4rem;
+    background-color:#970f0242;
+}
+
+.edad {
+    font-size: 25px;
+}
+
+#email {
+    width: 15rem;
+    height: 30px;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #143642;
+    border-radius: 0.4rem;
+    background-color:#970f0242;
+}
+
+.email {
+    font-size: 25px;
+}
+
+.nacionalidad {
+    background: #970f0242;
+    width: 15rem;
+    height: 30px;
+    margin: 1rem;
+    border: 1px solid #143642;
+    border-radius: 0.4rem;
+    color: #000000;
+    font-size: 1rem;
+}
+
+.pais {
+    font-size: 25px;
+}
+
+
+#mensaje {
+    width: 15rem;
+    height: 30px;
+    margin: 1rem;
+    padding: 0.2rem;
+    font-size: 25px;
+    text-align: center;
+}
+
+#cajita {
+    width: 20rem;
+    height: 8rem;
+    margin: 12px;
+    padding: 1rem;
+    border: 1px solid #143642;
+    border-radius: 0.4rem;
+    background-color: #970f0242;
+}
+
+#btn-enviar {
+    width: 70px;
+    height: 40px;
+    /* margin: 1px; */
+    /* padding: 1rem; */
+    background-color: #970f0242;
+    border: 2px solid #143642;
+    border-radius: 0.4rem;
+    cursor: pointer;
+}

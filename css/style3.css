@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("../image/prueba.jpg");
+}
+
+header {
+    width: 100%;
+    padding: 20px;
+}
+
+main {
+    width: 1222px;
+    background: #f6f0f4;
+    border: 5px solid #A8201A;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 4rem;
+    padding: 10px;
+}
+
+h1 {
+    margin-right: 45rem;
+    font-size: 50px;
+}
+
+.nav1 {
+    margin-top: 12px;
+    float: right;
+    width: 100%;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li a {
+    margin: 15px;
+    padding: 10px;
+    border: 2px solid #143642;
+    border-radius: 8px;
+    background-color: #a8211ae2;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #143642;
+}
+
+nav ul li {
+    display: inline;
+}
+
+.div1 {
+    width: 95%;
+    height: 23%;
+    margin: 35px;
+    padding: 10px;
+    border: 3px solid #634428;
+    border-radius: 1rem;
+    font-size: 25px;
+}
+
+.roma {
+    width: 20%;
+    border-radius: 1rem;
+    float: right;
+}
+
+.div2 {
+    width: 95%;
+    height: 33%;
+    margin: 35px;
+    padding: 10px;
+    border: 3px solid #634428;
+    border-radius: 1rem;
+    font-size: 25px;
+}
+
+.grecia {
+    width: 20%;
+    border-radius: 1rem;
+    float: right;
+}
+
+.div3 {
+    width: 95%;
+    height: 28.5%;
+    margin: 30px;
+    padding: 10px;
+    border: 3px solid #634428;
+    border-radius: 1rem;
+    font-size: 25px;
+}
+
+.paris {
+    width: 20%;
+    border-radius: 1rem;
+    float: right;
+}
+
+.texto {
+    float: left;
+    width: 60%;
+    margin-top: 30px;
+}
+
+.clear {
+    clear: both;
+}
